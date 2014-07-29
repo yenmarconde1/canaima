@@ -1,0 +1,89 @@
+v   libansicolor-perl               -                                           
+v   libarchive-tar-perl             -                                           
+v   libattribute-handlers-perl      -                                           
+v   libautodie-perl                 -                                           
+i A libcairo-perl                   - Perl interface to the Cairo graphics libra
+v   libcgi-pm-perl                  -                                           
+i A libclass-isa-perl               - report the search path for a class's ISA t
+v   libcompress-raw-bzip2-perl      -                                           
+v   libcompress-raw-zlib-perl       -                                           
+v   libcompress-zlib-perl           -                                           
+v   libcpan-meta-perl               -                                           
+v   libcpan-meta-yaml-perl          -                                           
+v   libcpanplus-perl                -                                           
+v   libdevel-dprof-perl             -                                           
+v   libdigest-md5-perl              -                                           
+v   libdigest-perl                  -                                           
+v   libdigest-sha-perl              -                                           
+v   libencode-perl                  -                                           
+i A liberror-perl                   - Perl module for error/exception handling i
+v   libextutils-cbuilder-perl       -                                           
+v   libextutils-command-perl        -                                           
+v   libextutils-install-perl        -                                           
+v   libextutils-parsexs-perl        -                                           
+v   libfile-path-perl               -                                           
+v   libfile-spec-perl               -                                           
+v   libfile-temp-perl               -                                           
+i A libglib-perl                    - interface to the GLib and GObject librarie
+i A libgtk2-perl                    - Perl interface to the 2.x series of the Gi
+v   libhttp-tiny-perl               -                                           
+v   libi18n-langtags-perl           -                                           
+v   libio-compress-base-perl        -                                           
+v   libio-compress-bzip2-perl       -                                           
+v   libio-compress-perl             -                                           
+v   libio-compress-zlib-perl        -                                           
+v   libio-zlib-perl                 -                                           
+v   libjson-pp-perl                 -                                           
+v   liblocale-codes-perl            -                                           
+i   liblocale-gettext-perl          - module using libc functions for internatio
+v   liblocale-maketext-perl         -                                           
+v   liblocale-maketext-simple-perl  -                                           
+v   libmath-bigint-perl             -                                           
+v   libmath-complex-perl            -                                           
+v   libmime-base64-perl             -                                           
+v   libmodule-build-perl            -                                           
+v   libmodule-corelist-perl         -                                           
+v   libmodule-load-conditional-perl -                                           
+v   libmodule-load-perl             -                                           
+v   libmodule-metadata-perl         -                                           
+v   libmodule-pluggable-perl        -                                           
+v   libnet-perl                     -                                           
+v   libnet-ping-perl                -                                           
+i A libpango-perl                   - Perl module to layout and render internati
+v   libparams-check-perl            -                                           
+v   libparent-perl                  -                                           
+v   libparse-cpan-meta-perl         -                                           
+v   libperl-ostype-perl             -                                           
+v   libperl4-corelibs-perl          -                                           
+v   libpod-escapes-perl             -                                           
+v   libpod-parser-perl              -                                           
+v   libpod-simple-perl              -                                           
+v   libscalar-list-utils-perl       -                                           
+v   libshell-perl                   -                                           
+v   libsocket-perl                  -                                           
+v   libstorable-perl                -                                           
+i A libswitch-perl                  - switch statement for Perl                 
+v   libsys-syslog-perl              -                                           
+v   libtest-harness-perl            -                                           
+v   libtest-simple-perl             -                                           
+i   libtext-charwidth-perl          - get display widths of characters on the te
+i   libtext-iconv-perl              - converts between character sets in Perl   
+i   libtext-wrapi18n-perl           - internationalized substitute of Text::Wrap
+v   libthread-queue-perl            -                                           
+v   libthreads-perl                 -                                           
+v   libthreads-shared-perl          -                                           
+v   libtime-hires-perl              -                                           
+v   libtime-local-perl              -                                           
+v   libtime-piece-perl              -                                           
+v   libunicode-collate-perl         -                                           
+i A libuuid-perl                    - Perl extension for using UUID interfaces a
+v   libversion-perl                 -                                           
+v   libversion-requirements-perl    -                                           
+v   libxsloader-perl                -                                           
+i A perl                            - Larry Wall's Practical Extraction and Repo
+i   perl-base                       - minimal Perl system                       
+i A perl-modules                    - Core Perl modules                         
+v   perl5                           -                                           
+v   perl5-base                      -                                           
+v   perlapi-5.14.2                  -                                           
+v   podlators-perl                  -                                           
