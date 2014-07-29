@@ -1,0 +1,62 @@
+Summary of changes from 2.0.0 to 2.0.1
+================================================
+
+	Memory leak fix when deleting unused interfaces
+
+	netlink: use default handlers
+
+
+Summary of changes from 2.0.0-rc2 to 2.0.0-rc3
+================================================
+
+	Support for collision, multicast and drop statistics for BSD.
+
+	Mark sparc64 OpenBSD as broken in manual pages.
+
+
+Summary of changes from 2.0.0-rc1 to 2.0.0-rc2
+================================================
+
+	Curses: 'l' toggles interface list display.
+
+	Curses: change header to show interface and
+	node and bmon version string on the right.
+
+Summary of changes from 2.0.0-pre5 to 2.0.0-rc1
+================================================
+
+	Support for requeues statistics (Linux).
+
+	Adapted to new libnl interface
+
+	Respect CPPFLAGS in dependency lookup
+
+	Remove trailing / in install procedure
+	(better portability)
+
+Summary of changes from 2.0.0-pre4 to 2.0.0-pre5
+================================================
+
+	Respect CPPFLAGS
+
+Summary of changes from 2.0.0-pre3 to 2.0.0-pre4
+================================================
+
+	Removed --enable-netstat, the global warning is better.
+
+	etc/bmon.conf example configuration file
+
+	Updated manual pages.
+
+	Verbose warning to not install bmon as SUID root
+	executable in configure script.
+
+	Allow setting input, secondary input, output secondary output,
+	policy, read_interval, sleep time and show all interface via
+	configuration file, overwrite possible via cli arguments.
+
+Summary of changes from 2.0.0-pre2 to 2.0.0-pre3
+================================================
+
+	Disable netstat input method by default and add --enable-netstat
+	to add it back to the compile process.

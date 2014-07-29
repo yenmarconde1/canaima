@@ -1,0 +1,18 @@
+Package: bmon
+Version: 2.0.1-3
+Architecture: i386
+Maintainer: Reto Schuettel <reto@schuettel.ch>
+Installed-Size: 142
+Depends: libc6 (>= 2.7), libncurses5 (>= 5.5-5~), libtinfo5
+Section: net
+Priority: optional
+Description: portable bandwidth monitor and rate estimator
+ bmon is a commandline bandwidth monitor which supports various output
+ methods including an interactive curses interface, lightweight HTML output but
+ also simple ASCII output.
+ .
+ Statistics may be distributed over a network using multicast or unicast and
+ collected at some point to generate a summary of statistics for a set of
+ nodes.
+ .
+ Homepage: http://suug.ch/~tgr/bmon/

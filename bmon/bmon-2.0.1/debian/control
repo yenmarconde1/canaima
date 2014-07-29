@@ -1,0 +1,20 @@
+Source: bmon
+Section: net
+Priority: optional
+Maintainer: Reto Schuettel <reto@schuettel.ch>
+Build-Depends: debhelper (>= 4.0.0), libncurses5-dev (>= 5.4-4)
+Standards-Version: 3.6.1
+
+Package: bmon
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: portable bandwidth monitor and rate estimator
+ bmon is a commandline bandwidth monitor which supports various output
+ methods including an interactive curses interface, lightweight HTML output but
+ also simple ASCII output.
+ .
+ Statistics may be distributed over a network using multicast or unicast and
+ collected at some point to generate a summary of statistics for a set of
+ nodes. 
+ .
+ Homepage: http://suug.ch/~tgr/bmon/

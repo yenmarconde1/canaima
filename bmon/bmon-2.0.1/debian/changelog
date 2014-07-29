@@ -1,0 +1,19 @@
+bmon (2.0.1-3) unstable; urgency=low
+
+  * debian/bmon.desktop added
+
+ -- Reto Schuettel <reto@schuettel.ch>  Tue, 18 Jan 2005 22:52:08 +0100
+
+bmon (2.0.1-2) unstable; urgency=low
+
+  * debian/rules
+    - removed unneeded debhelper scripts
+
+ -- Reto Schuettel <reto@schuettel.ch>  Tue, 18 Jan 2005 21:53:23 +0100
+
+bmon (2.0.1-1) unstable; urgency=low
+
+  * Initial Release. Closes: #286764.
+
+ -- Reto Schuettel <reto@schuettel.ch>  Tue, 21 Dec 2004 17:09:06 +0100
+
