@@ -1,0 +1,1 @@
+../../../../../share/pyshared/amigu/gui/__init__.py

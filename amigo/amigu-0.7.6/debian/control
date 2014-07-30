@@ -1,0 +1,19 @@
+Source: amigu
+Section: utils
+Priority: extra
+Maintainer: Equipo de  Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Uploaders: Erick Birbe <erickcion@gmail.com>, Orlando Andrés Fiol Carballo <fiolorlando@gmail.com>, Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), python (>=2.6), quilt
+Standards-Version: 3.9.1
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/amigu-canaima.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/amigu-canaima/trees/master
+
+Package: amigu
+Architecture: any
+Depends: python (>=2.6), python-gtk2, gksu, os-prober, gksu, gvfs, python-imaging, python-cairo, dumphive, ${shlibs:Depends}, ${misc:Depends}
+Description: Asistente de migracion a Canaima
+ Amigu es un asistente para la migración de archivos y configuraciones
+ desde sistemas Windows 2000/XP/Vista a Canaima.
+ .
+ Esta basada en la versión original para la distribución Guadadlinex.

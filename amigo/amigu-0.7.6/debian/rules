@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+#CFLAGS = -Wall -g
+#
+#ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+#	CFLAGS += -O0
+#else
+#	CFLAGS += -O2
+#endif
+
+%:
+	dh ${@} --with python2
+
+#override_dh_auto_install:
+#	$(MAKE) DESTDIR=$(CURDIR)/debian/amigu install

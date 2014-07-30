@@ -1,0 +1,13 @@
+Index: amigu-0.7.2-1/amigu/computer/info.py
+===================================================================
+--- amigu-0.7.2-1.orig/amigu/computer/info.py	2013-02-18 14:04:09.030654487 -0430
++++ amigu-0.7.2-1/amigu/computer/info.py	2013-02-18 14:06:55.474662542 -0430
+@@ -171,7 +171,7 @@
+         """Busca las particiones del equipo que contengan sistemas
+         operativos instalados
+         """
+-        listos = commands.getoutput('gksudo os-prober')
++        listos = commands.getoutput('gksu os-prober')
+         r = {}
+         try:
+             udi_list = commands.getoutput('lshal | grep  ^udi.*volume')

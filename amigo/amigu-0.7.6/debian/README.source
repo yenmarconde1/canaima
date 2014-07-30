@@ -1,0 +1,4 @@
+Este paquete utiliza quilt para aplicar los parches que se han generado 
+para modificar el codigo fuente.
+
+Lea las instrucciones en /usr/share/doc/quilt/README.source

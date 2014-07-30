@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/amigu/apps/win/settings/__init__.py

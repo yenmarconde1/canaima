@@ -1,0 +1,51 @@
+Index: amigu-0.7.2-3/amigu.desktop
+===================================================================
+--- amigu-0.7.2-3.orig/amigu.desktop    2011-12-28 22:06:59.873636321 +0000
++++ amigu-0.7.2-3/amigu.desktop 2011-12-28 22:07:10.838154416 +0000
+@@ -2,7 +2,7 @@
+ Encoding=UTF-8
+ Icon=/usr/share/pixmaps/amigu/icon_paginacion.png
+ Name=Asistente de Migración (AMIGU)
+-Comment= Asistente de migración de Guadalinex
++Comment= Asistente de migración de Canaima
+ Exec=/usr/bin/amigu
+ Terminal=false
+ Type=Application
+--- a/amigu/gui/amigugtk.py
++++ b/amigu/gui/amigugtk.py
+@@ -66,7 +66,7 @@
+ 
+         # Main Window
+         self.window = gtk.Window()
+-        self.window.set_title(_("Asistente de Migración a Guadalinex"))
++        self.window.set_title(_("Asistente de Migración a Canaima"))
+         self.window.set_default_size(700, 570)
+         self.window.set_border_width(0)
+         self.window.move(150, 50)
+@@ -235,7 +235,7 @@
+         label1.set_use_markup(True)
+         label1.set_line_wrap(True)
+         label1.set_justify(gtk.JUSTIFY_CENTER)
+-        label1.set_markup('<b>'+_('Bienvenido al Asistente de MIgración de GUadalinex - AMIGU') + '\n\n' + _('Este asistente le guiará durante el proceso de migración de sus documentos y configuraciones de su sistema operativo Windows.') + '\n' + _('Pulse el botón Adelante para comenzar.') + '</b>')
++        label1.set_markup('<b>'+_('Bienvenido al Asistente de Migración de Canaima - AMIGU') + '\n\n' + _('Este asistente le guiará durante el proceso de migración de sus documentos y configuraciones de su sistema operativo Windows.') + '\n' + _('Pulse el botón Adelante para comenzar.') + '</b>')
+ 
+         # añadir
+         self.box_inicial.pack_start(label1, True, True, 10)
+@@ -395,7 +395,7 @@
+             dialog.set_license(open('/usr/share/common-licenses/GPL').read())
+         else:
+             dialog.set_license("This program is released under the GNU General Public License.\nPlease visit http://www.gnu.org/copyleft/gpl.html for details.")
+-        dialog.set_comments(_("asistente a la migración de Guadalinex"))
++        dialog.set_comments(_("asistente a la migración de Canaima"))
+         dialog.run()
+         dialog.destroy()
+ 
+@@ -1032,7 +1032,7 @@
+     return size
+ 
+ def run():
+-    print _("Asistente de MIgración de Guadalinex")
++    print _("Asistente de Migración de Canaima")
+     print '(C) 2006-2010 Fernando Ruiz Humanes, Emilia Abad Sanchez\nThis program is freely redistributable under the terms\nof the GNU General Public License.\n'
+     base = Asistente()
+     base.main()

@@ -1,0 +1,1 @@
+../../../../../../share/pyshared/amigu/apps/mac/__init__.py

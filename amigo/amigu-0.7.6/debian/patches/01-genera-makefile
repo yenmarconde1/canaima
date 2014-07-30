@@ -1,0 +1,27 @@
+Index: amigu-0.7.2-1/Makefile
+===================================================================
+--- /dev/null	1970-01-01 00:00:00.000000000 +0000
++++ amigu-0.7.2-1/Makefile	2013-02-18 13:54:35.010626706 -0430
+@@ -0,0 +1,22 @@
++PYTHON=`which python`
++BUILDIR=$(CURDIR)/debian/amigu
++PROJECT=amigu
++VERSION=0.7.6
++
++all:
++	@echo "make source - Create source package"
++	@echo "make install - Install on local system"
++	@echo "make buildrpm - Generate a rpm package"
++	@echo "make builddeb - Generate a deb package"
++	@echo "make clean - Get rid of scratch and byte files"
++
++source:
++	$(PYTHON) setup.py sdist $(COMPILE)
++
++install:
++	$(PYTHON) setup.py install --root $(DESTDIR) $(COMPILE)
++
++clean:
++	$(PYTHON) setup.py clean
++	rm -rf build/ dist/ MANIFEST
++	find . -name '*.pyc' -delete

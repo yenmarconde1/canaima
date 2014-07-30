@@ -1,0 +1,1 @@
+../../../../../share/pyshared/amigu/apps/base.py

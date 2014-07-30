@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/amigu/apps/win/messenger/__init__.py

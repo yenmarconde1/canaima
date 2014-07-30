@@ -1,0 +1,14 @@
+Package: amigu
+Version: 0.7.6-2
+Architecture: i386
+Maintainer: Equipo de  Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
+Installed-Size: 1004
+Depends: python (>= 2.6), python-gtk2, gksu, os-prober, gvfs, python-imaging, python-cairo, dumphive, libc6 (>= 2.3)
+Section: utils
+Priority: extra
+Homepage: http://canaima.softwarelibre.gob.ve/
+Description: Asistente de migracion a Canaima
+ Amigu es un asistente para la migración de archivos y configuraciones
+ desde sistemas Windows 2000/XP/Vista a Canaima.
+ .
+ Esta basada en la versión original para la distribución Guadadlinex.

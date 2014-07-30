@@ -1,0 +1,1 @@
+../../../../../../../share/pyshared/amigu/apps/win/mail/thunderbird.py

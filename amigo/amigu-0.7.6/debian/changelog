@@ -1,0 +1,210 @@
+amigu (0.7.6-2) unstable; urgency=low
+
+  * [6d171ec] Removiendo carpeta debian para limpiar rama upstream
+  * [3e28810] Añadiendo carpeta debian/ en rama master para empaquetado
+  * [cc5b260] Update changelog for 0.7.6-2 release
+
+ -- Erick Birbe <erickcion@gmail.com>  Tue, 19 Feb 2013 10:36:13 -0430
+
+amigu (0.7.6-1) unstable; urgency=low
+
+  * [50101da] Ignorando en git archivos .pyc
+  * [9998d5a] Quitando edicion de .gitignore del parche que genera el Makefile
+  * [171813f] Siguiendo secuancia numerica en parche que genera makefile
+  * [29e046c] Utilizando gksu en vez de gksudo
+  * [bf9b456] Usando debian/rules para python
+
+ -- Erick Birbe <erickcion@gmail.com>  Mon, 18 Feb 2013 16:25:31 -0430
+
+amigu (0.7.2-6) unstable; urgency=low
+
+  * [18ade2f] Sustituyendo la librería readpst por una versión
+    estáticamente enlazada
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 29 Dec 2011 04:18:03 -0430
+
+amigu (0.7.2-5) unstable; urgency=low
+
+  * [dedcdcf] Incrustando readpst para evitar conflictos en la
+    actualización
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 29 Dec 2011 04:08:14 -0430
+
+amigu (0.7.2-4) unstable; urgency=low
+
+  * [f5130e6] Corrigiendo parche
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 22:10:28 +0000
+
+amigu (0.7.2-3) unstable; urgency=low
+
+  * [644ccd1] Implementando sistema de parches quilt, estableciendo
+    formato de fuentes a 3.0 (quilt)
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 20:33:38 -0430
+
+amigu (0.7.2-2) unstable; urgency=low
+
+  * [56a7c87] Removiendo binario de dumphive, agregando como dependencia
+    en debian/control
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 13:20:51 -0430
+
+amigu (0.7.2-1) unstable; urgency=low
+
+  * [c5c0a28] Migrando a la version 0.7.2 de amigu
+  * [6d0fd57] Quitando parches anteriores
+  * [e79fae5] Parcheando para cambiar nombres de Guadalinex por Canaima
+  * [7dcf3b6] Subiendo los parches que faltaron
+  * [5d9b598] Limpiando el debian/rules
+  * [c381fb1] Eliminando fp-compiler de las dependencias de construccion
+  * [d00b75b] Creado parche que genera el Makefile para la construccion
+    del paquete.
+  * [ced670e] Removiendo parche innecesario, corrigiendo errores de
+    lintian
+  * [eedd2c7] Eliminando debian/source/format
+
+ -- Erick Birbe <erickcion@gmail.com>  Wed, 09 Nov 2011 17:31:18 -0430
+
+amigu (0.6.3+4canaima10) unstable; urgency=low
+
+  * [71e4265] Reduciendo el tamaño del banner de la aplicación.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 17 May 2011 21:07:31 -0430
+
+amigu (0.6.3+4canaima9) unstable; urgency=low
+
+  * [0e4e242] Cambiando iconografía y agregando fuentes de imagen XCF.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Mon, 28 Mar 2011 02:37:14 -0430
+
+amigu (0.6.3+4canaima8) unstable; urgency=low
+
+  * [48c9c9f] archivo amigu.py
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Sun, 27 Mar 2011 10:41:28 -0430
+
+amigu (0.6.3+4canaima7) unstable; urgency=low
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [a61a806] Mejorando ícono
+
+  [ Carlos Escobar ]
+  * [8ccd79f] modificación de imagenes
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Sat, 26 Mar 2011 17:58:23 -0430
+
+amigu (0.6.3+4canaima6) unstable; urgency=low
+
+  * [b7ab2e1] Corrigiendo imagen dañada
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 11 Feb 2011 16:19:23 -0430
+
+amigu (0.6.3+4canaima5) unstable; urgency=low
+
+  * [45fb4eb] Cambiando estilo visual
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 11 Feb 2011 13:57:55 -0430
+
+amigu (0.6.3+4canaima4) unstable; urgency=low
+
+  * [7ebc8ba] Nueva versión
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 25 Nov 2010 20:34:57 -0430
+
+amigu (0.6.3+4canaima3) unstable; urgency=low
+
+  * [0ba0c89] Corrigiendo errores de lintian
+  * [1506ec1] Limpiando sistema de archivos
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 25 Nov 2010 20:24:54 -0430
+
+amigu (0.6.3+4canaima2) unstable; urgency=low
+
+  * [1b23d08] Agregando Makefile y modificando debian/rules
+  * [325743a] Corrigiendo Makefile y debian/rules
+  * [769a5d0] Corrigiendo error de sintaxis
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 25 Nov 2010 18:58:45 -0430
+
+amigu (0.6.3+4canaima1) unstable; urgency=low
+
+  [ Orlando Andŕes Fiol Carballo ]
+  * [1aa78c6] Correcciones en botones Siguiente y Aceptar. Se cambió el
+    botón "Adelante" por "Siguiente" y se colocó el botón de Aceptar a
+    la derecha de las ventanas de confirmación
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [2769347] Agregando Vcs-Git
+  * [1f3f7a9] Agregando traducciones perdidas
+  * [a4b374b] Agregando uploader
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Thu, 25 Nov 2010 18:18:38 -0430
+
+amigu (0.6.3-4canaima0) estable; urgency=low
+
+  * Adaptación del arte para el proyecto Canaima
+  * Script de inicio de amigu monta la partición de windows detectada en
+    /tmp/canaima antes de iniciar la aplicación (y la desmonta al finalizar)
+
+ -- Orlando Andŕes Fiol Carballo <fiolorlando@gmail.com>  Thu, 25 Nov 2010 17:29:34 -0430
+
+amigu (0.6.3-4) hardy; urgency=low
+
+  * Hardy update 
+
+ -- Alfredo Matas <amatas@emergya.es>  Wed, 09 Apr 2008 16:08:20 +0200
+
+amigu (0.6.3-3) unstable; urgency=low
+
+  * Fixed bug in messenger.py, strange character on line 2.
+
+ -- Junta de Andalucía <luis@localhost.localdomain>  Mon,  2 Jul 2007 13:57:35 +0200
+
+amigu (0.6.3-2) unstable; urgency=low
+
+  * Removed statically-linked binary dumphive.
+  * Added dumphive dependency.
+
+ -- Junta de Andalucía <packmaster@guadalinex.org>  Mon, 25 Jun 2007 12:54:47 +0200
+
+amigu (0.6.3-1) unstable; urgency=low
+
+  * Some bugs fixed in the debian package.
+  * Changed maintainer to packmaster of the universe.
+
+ -- Junta de Andalucía <packmaster@guadalinex.org>  Mon, 25 Jun 2007 12:40:47 +0200
+
+amigu (0.6.3) unstable; urgency=low
+
+  * Fixed bug for system without configured Outlook Express
+  * Fixed bug migrating Thunderbird profile
+  * Fixed bug that tried to read unmounted partitions
+  * Verified compatibility with Iceweasel and Icedove in Debian
+
+ -- fernando <fruiz@cassfa.com>  Thu, 17 May 2007 10:20:21 +0200
+
+amigu (0.6.2) unstable; urgency=low
+
+  * Added support for Outlook Address Book
+
+ -- fernando <fruiz@cassfa.com>  Thu, 12 Apr 2007 09:38:51 +0200
+
+amigu (0.6.1-1) unstable; urgency=low
+
+  * Added multilingual support
+
+ -- fernando <fruiz@cassfa.com>  Mon, 26 Mar 2007 16:38:51 +0200
+
+amigu (0.6-2) unstable; urgency=low
+
+  * Revision
+
+ -- fernando <fruiz@cassfa.com>  Mon, 26 Mar 2007 16:38:51 +0200
+
+
+amigu (0.6-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- fernando <fruiz@cassfa.com>  Mon, 26 Mar 2007 16:38:51 +0200
